@@ -1,17 +1,36 @@
 #include<iostream>
-void main()
 
+bool multipl(int a);
 
+int main()
 {
-	setlocale (LC_ALL, "ru" ) ;
-	int num = 0;
-	std::cout << "ВВЕДИТЕ ПОЛОЖИТЕЛЬНОЕ ЧИСЛО, НЕ ПРЕВЫШАЮЩЕЕ 100000 \n";
-	std::cin >> num;
-	std::cout << num%100/10;
-}	
+	std:: setlocale(LC_ALL, "ru");
+	int TMP=0;
+	std::cin >> TMP;
+	if (multipl(TMP))
+	{
+		std::cout << "Delitsa";
+	}
+	else{
+		std::cout << "net";
+	}
+	
+}
+
+bool multipl(int a)
+{
+	if(a%2==0)
+	return true;
+	else
+	return false;
+}
 
 	
 // здесь ставятся ваши лайки Лайк!!!
+//Лайк!!
+//Лайк!!
+//Лайк!!
+//Лайк!!
 //Лайк!!
 //Лайк!!
 //Лайк!!
